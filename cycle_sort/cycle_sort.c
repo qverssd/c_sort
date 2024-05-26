@@ -1,4 +1,3 @@
-// Sorting of array list using cycle sort
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -25,7 +24,7 @@ void swap(int *first, int *second)
 
 void cycleSort(int *arr, int n)
 {
-    // count number of memory writes
+
     int writes = 0;
 
     for (int cycle_start = 0; cycle_start <= n - 2; cycle_start++)
@@ -80,7 +79,7 @@ void cycleSort(int *arr, int n)
 
 int main()
 {
-    int n;  /
+    int n;  
 
     printf("Enter size of array:\n");
     scanf("%d", &n); 
